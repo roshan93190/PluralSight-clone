@@ -22,8 +22,14 @@ document.addEventListener("click", (e) => {
     });
   });
   
-  let togglebutton=document.getElementsByClassName('toggle-button')[0]
-  let navbarlink=document.getElementsByClassName("remain")[0]
-  togglebutton.addEventListener("click",()=>{
-    navbarlink.classList.toggle('active')
+
+  document.addEventListener("click",(even)=>{
+    let togglebutton=document.getElementsByClassName('toggle-button')[0]
+    let navbarlink=document.getElementsByClassName("remain")[0]
+    
+    togglebutton.addEventListener("click",()=>{
+      console.log("ranjan")
+      navbarlink.classList.toggle('active')
+    })
   })
+  

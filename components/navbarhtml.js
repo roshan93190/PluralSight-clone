@@ -3,12 +3,12 @@ function navbar(){
     <!-- https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/global/header/PS_logo.png -->
     <a href="#" class="comp_logo"></a>
   </div>
-  <a href="#" class="toggle-button">
+  <a href="#" class=" toggle-button " >
     <span class="bar"></span>
     <span class="bar"></span>
     <span class="bar"></span>
   </a>
-  <div class="remain">
+  <div class="remain menubtn" >
     <ul class="menu_main">
       <li class="primary_link">
         <div class="dropdown" data-dropdown>
@@ -90,7 +90,7 @@ function navbar(){
             <!-- https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png -->
             <div class="product_main">
               <div class="product left">
-              <a href="#"> <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png" alt="">
+              <a href="/products/skill.html"> <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png" alt="">
                 <h3>Build tech skills to drive results</h3>
               </a>
                <hr class="product_hr">
@@ -205,5 +205,7 @@ function navbar(){
     </ul>
   </div>`
 }
+
+
 
 export default navbar

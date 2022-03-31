@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/products/skill.css">
+    <link rel="stylesheet" href="/components/navbar.css" />
+    <link />
+    <script src="/components/navbar.js" defer></script>
+    <title>Skill</title>
+    
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <div class="main_skill">
+      <img
+        src="https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block1_copy_/image-res.img.9791782a-3039-4f31-8110-b42ab888542c.png"
+        alt=""
+      />
+      <div class="content">
+        <div class="logo_skil">
+          <img
+            src="https://www.pluralsight.com/content/dam/pluralsight2/logos/logo_ps-skills.png"
+            alt=""
+          />
+        </div>
+        <div class="design">
+          <img
+            src="https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block1_copy_/parsys/columns/column-parsys-1/animation_wrapper/parsys/generic_block/image-res.img.fa6b0102-262d-446a-834d-f2454881e1d3.png"
+            alt="design"
+          />
+        </div>
+        <div class="skill_text">
+          <h1>Where technology teams build better skills, faster</h1>
+          <h4>
+            Technology teams are only as successful as their skills are
+            relevant. With access to expert-authored courses and content, skill
+            assessments and analytics, Pluralsight Skills gives you the most
+            effective path to building business-critical skills.
+          </h4>
+          <button class="btn skill_btn">try for free</button>
+        </div>
+      </div>
+      <div class="remain_skill">
+          <div class="header">
+            <h3>THE TECHNOLOGY SKILLS PLATFORM</h3>
+            <div>Empower employees to build their skills</div>
+          </div>
+          <div class="greet">
+              <div class="greet_left">
+                  <div>
+                    <img src="https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block_copy/parsys/generic_block_413530/parsys/animation_wrapper/parsys/columns_copy/column-parsys-1/generic_block_202764/parsys/columns_copy/column-parsys-1/generic_block_copy_c/parsys/image/image-res.img.50a929ee-afcc-409d-b866-5be9f4b5d339.png" alt="">
+                 
+                  </div>
+                 <div>
+                     
+                    <h2>Compare our libraries Core library</h2>
+                    <h5>Our core library features 2,500+ of our most-popular courses on in-demand topics like cloud, data, security, software development, infrastructure and more.</h5>
+                    <i>*Available in our starter plan</i>
+              
+                 </div>
+                </div>
+                <div class="greet_right">
+                    <h5>COURSE LIBRARY</h5>
+                    <h2>Feel confident your team is learning from the industry’s best</h2>
+                    <h6>Upskill your team with courses on the most in-demand technology topics, taught by the experts who know them best.</h6>
+                    <div class="list_item">
+                        <ul>
+                            <li>Software Development</li>
+                            <li>Machine Learning & AI</li>
+                            <li>IT Ops</li>
+                         </ul>
+                         <ul>
+                            <li>Data Professional</li>
+                            <li>Information & Cybersecurity</li>
+                            <li>Cloud computing</li>
+                         </ul>
+                    </div>
+                    <div class="last_text">
+                     
+                        <h2>Expanded library</h2>
+                        <h5>Our expanded library gives you access to our full 7,000+ course library. It includes more advanced topics if you need to build deep expertise and niche topics for those tackling special projects.</h5>
+                        <i>*Available in our professional and enterprise plans</i>
+                  
+                     </div>
+                   
+                </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="module">
+  import navbar from "/components/navbarhtml.js";
+  let navbars = document.getElementById("navbar");
+  navbars.innerHTML = navbar();
+</script>
