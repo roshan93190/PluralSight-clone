@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-color: #0d0f12;
+    color: hsla(0,0%,100%,.95);
+}
+#signin{
+    display: flex;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 100px auto 100px;
+}
+
+#left #left-signin #logo{
+    text-align: center;
+}
+#left #left-signin img{
+  height: 64px;
+  width: 303px;
+  margin-bottom: 40px;
+
+}
+#left #left-signin form label{
+    display: block;
+    font-family: sans-serif;
+    color: hsla(0,0%,100%,.95);
+    font-size: 16px;
+    margin-bottom: 4px;
+    
+}
+#left #left-signin form input{
+    background-color: #0d0f12;
+    border: 1px solid rgb(118, 119, 122);
+    height: 35px;
+    width: 338px;
+    padding: 2px;
+    font-size: 100%;
+    line-height: 1.15;
+    margin-bottom: 30px;
+    display: block; 
+    font-weight: bold;
+    color: white;      
+    font-family: sans-serif;
+}
+#left #left-signin form #submit{
+    color: white;
+    background-color: rgb(0,116,171);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    font-weight: bold;  
+    transition: 0.5s;
+}
+#left #left-signin form #submit:hover{
+    
+    background-color: rgb(4, 101, 146);
+    
+}
+#left #left-signin #forgot{
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(41,160,214);
+    font-weight: normal;
+} 
+#left #left-signin #forgot:hover {
+    
+    text-decoration: underline;
+   
+} 
+#left #left-signin #company{
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(41,160,214);
+    font-weight: normal;
+} 
+#left #left-signin #company:hover {
+    text-decoration: underline;           
+} 
+hr { 
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(118, 119, 122);
+    margin: 1em 0; padding: 0; 
+}
+#left #left-signin #createNew{
+    color: white;
+    background-color: rgb(45,49,55);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;  
+    height: 40px;
+    width: 338px;
+    font-size: 16px;
+    margin-bottom: 45px;
+    transition: 0.5s;
+}
+#left #left-signin #createNew:hover{
+    background-color: rgb(57, 61, 66);
+    
+    
+}
+#left footer{
+    text-align: center;
+    color:rgb(178,176,179);
+    font-size: 14px;
+}
+#left footer>div>a{
+    color: rgb(178,176,179);;
+}
+#right{
+    text-align: center;
+    margin:auto;
+}
+#right #img3 img{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    max-width: 150px;
+}
+#right #img1{
+    text-align: center;
+    justify-content: center;
+}
+#right #img2 {
+    margin-top: 40px;
+}
+
+#right #img2 #tryforfree {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+#right #img2 #tryforfree {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 1.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    right: 450px;
+    bottom: 160px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    border: none;
+  }
+
+#right #img2 #tryforfree:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+            
