@@ -1,0 +1,106 @@
+#pricing{
+    background-color: rgb(24,24,24);
+    justify-content: center;
+    text-align: center;
+}
+ #main-pricing{
+    width: 70%;
+    height: auto;
+    margin: 10% auto;
+    text-align: center;
+    justify-content: center;
+}
+#main-pricing h3{
+    color: rgb(195,0,132);
+}
+#main-pricing h1{
+    color: white;
+    font-size: 70px;
+}
+#main-pricing #pricing-container{
+    display: flex;
+    gap:30px        
+}
+#main-pricing #pricing-container #skills{
+    padding: 50px;
+    height: 250px;
+    width: 400px;
+    background-color: rgb(34,34,34);
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+#main-pricing #pricing-container #skills #p1{
+    color:white;
+    font-size: 18px;
+}
+#main-pricing #pricing-container #skills #p1-2{
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#main-pricing #pricing-container #flow{
+    padding: 50px;
+    height: 250px;
+    width: 400px;
+    background-color: rgb(34,34,34);
+}
+#main-pricing #pricing-container #flow #p2{
+    color:white;
+    font-size: 18px;
+}
+#main-pricing #pricing-container #flow #p2-2{
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#main-pricing #pricing-container #skills #skill-button {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+#main-pricing #pricing-container #skills #skill-button {
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        transition: 1s;
+        background-size: 200% auto;
+        color: white;            
+        border-radius: 3px;
+        display: block;
+        height: 50px;
+        width: 250px;
+        border: none;
+        cursor: pointer;
+
+      }
+
+      #main-pricing #pricing-container #skills #skill-button:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+
+      
+      #main-pricing #pricing-container #flow #flow-button{background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+      #main-pricing #pricing-container #flow #flow-button {
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        border-radius: 3px;
+        display: block;
+        height: 50px;
+        width: 250px;
+        border: none;
+        cursor: pointer;
+      }
+
+      #main-pricing #pricing-container #flow #flow-button:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
