@@ -1,0 +1,162 @@
+*{
+    /* background-color: black; */
+}
+.collapsible {
+background-color: black;
+color: white;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+margin-left: 50px;
+}
+
+.active, .collapsible:hover {
+background-color: #555;
+}
+
+.star>i{
+color: gold;
+height: 8px;
+width: 8px;
+row-gap:  3px;
+}
+.content {
+padding: 0 18px;
+max-height: 0;
+overflow: hidden;
+/* width: 20%; */
+transition: max-height 0.2s ease-out;
+background-color: #f1f1f1;
+}
+.content{
+width:240px;
+background-color: black;
+color: white;
+font-size: larger;
+/* line-height: 25px; */
+}
+.content>div{
+margin-left: 50px;
+font-size:18px ;
+}
+.border{
+
+width: 857px;
+border: 1px solid black;
+margin-left: 200px;
+background-color: black;
+color: white;
+/* border:2px solid white ; */
+}
+.border>div{
+border-bottom: 1px  solid #333333;
+}
+#mainDiv{
+border: 2px solid black;
+display: flex;
+background: black;
+}
+.dona>img{
+height: 1.5%;
+width: 1.5%;
+}
+.expanded{
+display: flex;
+gap: 10px;
+color: gray;
+}
+.border>h3{
+position: relative;
+margin-bottom: 20px;
+line-height: 10px;
+}
+
+.expanded>:first-child{
+background-color: #0084bd;
+padding: 1px 1px 1px 1px ;
+margin-left: 5px;
+border-radius: 2px;
+color: white;
+}
+#bottom{
+height: 500px;
+
+border: 1px solid gray;
+background-color: black;
+/* display: flex;
+justify-content: center; */
+}
+#bottom2{
+height: 500px;
+
+border: 1px solid gray;
+background-color: black;
+/* display: flex;
+justify-content: center; */
+}
+#bottom2>div{
+height: 75%;
+width: 30%;
+/* border: 1px solid white; */
+}
+.boxes4>li{
+color: white;
+line-height: 30px;
+font-size: 20px;
+margin-left: 50px;
+}
+.software-development{
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ margin-left: 50px;
+}
+#skills{
+ background-color: black;
+ text-align: center;
+}
+
+#skills>div{
+ border: 1px solid black;
+ position: relative;
+}
+*{
+ color: white;
+ background-color: black;
+}
+#search>input{
+height: 55px;
+width:1200px;
+border:1px solid #333333;
+ margin-left: 50px;
+}
+.button{
+height: 30px;
+width: 125px;
+border: 1px solid gray;
+padding-top: 25px;
+}
+
+.button{
+margin-left: 50px;
+text-align: center;
+font-size:22px ;
+/* padding-bottom: 5px; */
+}
+#search{
+display: flex;
+}
+.button>img{
+height: 40%;
+width: 15%;
+}
+.dhundha{
+height: 10%;
+width: 5%;
+margin-top: 15px;
+margin-left: 20px;
+}
