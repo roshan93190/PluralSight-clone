@@ -1,7 +1,7 @@
 function navbar(){
     return ` <div class="logo">
     <!-- https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/global/header/PS_logo.png -->
-    <a href="#" class="comp_logo"></a>
+    <a href="/index.html" class="comp_logo"></a>
   </div>
   <a href="#" class=" toggle-button " >
     <span class="bar"></span>
