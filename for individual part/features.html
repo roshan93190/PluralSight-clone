@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            height: auto;
+            width: 100%;
+            /* border: 1px solid red; */
+            background-color: rgb(36, 33, 33);
+            padding-left: 15px;
+            padding-top: 50px;
+        }
+        #first{
+            height: auto;
+            width: 96%;
+            /* border: 1px solid white; */
+            border-radius: 15px;
+            margin-left: 10px;
+            display: flex;
+        }
+        #inn{
+            height: auto;
+            width: 60%;
+            background-color: rgb(49, 46, 46);
+            padding: 5px;
+        }
+        .ek{
+            display: flex;
+            padding: 5px;
+        }
+        #sec{
+            height: auto;
+            width: 95%;
+            /* border: 1px solid teal; */
+            background-color: rgb(36, 33, 33);
+            display: flex;
+            padding-bottom: 50px;
+        }
+        #omm{
+            height: auto;
+            width: 31%;
+            /* border: 1px solid blue; */
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: rgb(49, 46, 46);
+        }
+        #dis{
+            height: auto;
+            width: 100%;
+            /* border: 1px solid red; */
+            background-color: black;
+            padding-left: 15px;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        #four{
+            height: auto;
+            width: 100%;
+            background-color: black;
+            display: flex;
+        }
+        .fr{
+            height: auto;
+            width: 31%;
+            /* border: 1px solid red; */
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        @media only screen and (min-width: 0px) and (max-width: 420px) {
+        #first{
+          width: 100%;
+          grid-template-columns: repeat(1,100px);
+          grid-template-rows: 30px;
+          margin: auto;
+          justify-content: center;
+        }
+        #sec{
+          width: 100%;
+          grid-template-columns: repeat(1,100px);
+          grid-template-rows: 300px;
+          margin: auto;
+          justify-content: center;
+        }
+        #four{
+          width: 100%;
+          grid-template-columns: repeat(1,100px);
+          grid-template-rows: 300px;
+          margin: auto;
+          justify-content: center;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h3 style="color: rgb(238, 54, 85);">See What's New </h3>
+        <h1 style="color: white;">Our latest features</h1>
+        <div id="first">
+            <div id="inn">
+                <div class="ek">
+                <img style="height: 20.28px;width: 150.98px;margin-top: 5px;" src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png" alt="pluralsight logo">
+                <h3 style="color: white;padding-left: 5px;padding-right: 10px;margin-left: 10px;margin-top: 2px;">LABS</h3>
+                <!-- <h5 style="color: white;">LABS</h5> -->
+                </div>
+                <div class="do">
+                    <h1 style="color: white;font-size: 40px;padding-left: 15px;">Deepen your people's expertise with hands-on labs</h1>
+                    <h3 style="padding-top: -10px;color: white;padding-left: 15px;padding-right: 5px;">Improve your teams’ confidence in their ability to deliver on business objectives by building the right skills that meet your org’s needs. Pluralsight offers 950+ labs that enable hands-on practice in secure environments across domains such as cloud (AWS, GCP and Azure), IT Ops, security, data and software development.</h3>
+                    <h2 style="color: white;padding-left: 15px;"><a href="#">Learn more</a></h2>
+                </div>
+            </div>
+            <div>
+                <img style="height: 459px;width: 738px;" src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/Cloud-labs-image2x.png" alt="">
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div id="sec">
+            <div id="omm">
+                <div class="ek">
+                    <img style="height: 23.28px;width: 239.98px;margin-top: 10px;" src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/certification-prep.png" alt="pluralsight logo">
+                    <!-- <h3 style="color: white;padding-left: 5px;padding-right: 10px;">CERTIFICATION PREP</h3> -->
+                    <!-- <h5 style="color: white;">PREP</h5> -->
+                </div>
+                <div class="do">
+                    <h1 style="color: white;font-size: 40px;padding-left: 15px;">Empower your teams to grow their skills and their careers </h1>
+                    <h3 style="padding-top: -10px;color: white;padding-left: 15px;padding-right: 5px;">Prepare your team for certification exams with our expert authored content and practice exams.</h3>
+                    <h2 style="color: white;padding-left: 15px;"><a href="#">Learn more</a></h2>
+                </div>
+            </div>
+            <div id="omm">
+                <div class="ek">
+                    <img style="height: 23.28px;width: 239.98px;margin-top: 10px;" src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/delivery-module.png" alt="delhivery_module logo">
+                    <!-- <h3 style="color: white;padding-left: 5px;padding-right: 10px;">DELHIVERY MODULE</h3> -->
+                    <!-- <h5 style="color: white;">LABS</h5> -->
+                </div>
+                <div class="do">
+                    <h1 style="color: white;font-size: 40px;padding-left: 15px;">Make lasting workflow improvements with insights from your Jira data </h1>
+                    <h3 style="padding-top: -10px;color: white;padding-left: 15px;padding-right: 5px;">Go beyond Jira data and get visibility into what’s happening within your user stories, tasks and bugs. Flow’s delivery module helps you better understand how your team is working and can make lasting improvements to your workflow.</h3>
+                    <h2 style="color: white;padding-left: 15px;"><a href="#">Learn more</a></h2>
+                </div>
+            </div>
+            <div id="omm">
+                <div class="ek">
+                    <img style="height: 23.28px;width: 239.98px;margin-top: 10px;" src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/sandboxes.png" alt="pluralsight logo">
+                    <!-- <h3 style="color: white;padding-left: 5px;padding-right: 10px;">SANDBOXES</h3> -->
+                    <!-- <h5 style="color: white;">LABS</h5> -->
+                </div>
+                <div class="do">
+                    <h1 style="color: white;font-size: 40px;padding-left: 15px;">Utilize a space for unrestricted exploration</h1>
+                    <h3 style="padding-top: -10px;color: white;padding-left: 15px;padding-right: 5px;">Sandboxes gives your team a safe environment to practice what they're learning from expert-authored courses.</h3>
+                    <h2 style="color: white;padding-left: 15px;"><a href="#">Learn more</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="dis">
+        <h4 style="color: rgb(238, 54, 85);font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Keep up to date </h4>
+        <h1 style="color: white;">Discover more about Pluralsight </h1>
+        <div id="four">
+            <div class="fr">
+                <a href="#"><img style="height: 146px;width: 310px;border-radius: 15px;" src="https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_135160/parsys/columns/column-parsys-1/flex_block/parsys/flex_open_block_copy/parsys/image/image-res.img.c019902f-4ccb-4794-b333-65fa9c4c65b0.jpg" alt="skills logo"></a>
+                <h3 style="font-size: 20px;color: yellow;">What is Pluralsight Skills? </h3>
+                <p style="color: white;font-size: 20px;">Discover the fastest, most effective path to developing technology skills</p>
+            </div>
+
+            <div class="fr">
+                <a href="#"><img style="height: 146px;width: 310px;border-radius: 15px;" src="https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_135160/parsys/columns/column-parsys-1/flex_block/parsys/flex_open_block_copy_1875049544/parsys/image/image-res.img.e2124b15-cc2b-4a54-afc6-8c55168690a7.png" alt="skills logo"></a>
+                <h3 style="font-size: 20px;color: yellow;">Pluralsight named a leader for IT training </h3>
+                <p style="color: white;font-size: 20px;">We're honored to be recognized in the 2021 IDC MarketScape for IT training.</p>
+            </div>
+
+            <div class="fr">
+                <a href="#"><img style="height: 146px;width: 310px;border-radius: 15px;" src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/flow-demo-thumbnail.png" alt="skills logo"></a>
+                <h3 style="font-size: 20px;color: yellow;">Learn how to de-friction your software development workflow with Flow </h3>
+                <p style="color: white;font-size: 20px;">Take a guided tour through Pluralsight Flow to see how visibility can take your team to the next level</p>
+            </div>
+
+            <div class="fr">
+                <a href="#"><img style="height: 146px;width: 310px;border-radius: 15px;" src="https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_135160/parsys/columns/column-parsys-1/flex_block/parsys/flex_open_block_copy_383891725/parsys/image/image-res.img.476ff2a8-d6ec-4797-8c6d-efe41a4b5039.png" alt="skills logo"></a>
+                <h3 style="font-size: 20px;color: yellow;">Create your free account </h3>
+                <p style="color: white;font-size: 20px;">Build new tech skills on us with free access to 50+ expert-led courses, assessments and more.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
